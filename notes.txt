@@ -24,3 +24,16 @@ To track history (say one commits new code and now the codebase doesn't work) on
 history of previous commit by the command
 
 `git checkout HEAD-n` with n being the previous n commits.
+
+Some tips: Use git like a digital lab notebook that tracks all of the changes. For example, the instructor
+mainly works on her desktop computer, and when travelling she just pushs the code to the Github on the desktop computer
+and pulls the code on the travelling computer to work on it. No need to transfer file on a hard drive.
+
+git should be committed as often as you code as possible.
+
+gitignore: Sometimes data can be large and tracking their changes can be very slow.
+In that case, we add the file (relative path from the repo directory) to gitignore
+Then gitignore will not track the changes of that file.
+
+CI/CD: On github, you have tests that test the new code being added. 
+If the new code passess all the tests, then the code get merged automatically.
