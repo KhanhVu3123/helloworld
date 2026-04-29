@@ -16,3 +16,6 @@ one could create a branch of the main repo, then after finishing the feature, th
 merge the branch to the main branch.
 
 Do not create a git folder inside an already git folder. It's not that you can't, just don't do it.
+
+Making changes directly on the Github page is generally not recommended. But for the purpose of the workshop
+we do this for demonstration.
