@@ -19,3 +19,8 @@ Do not create a git folder inside an already git folder. It's not that you can't
 
 Making changes directly on the Github page is generally not recommended. But for the purpose of the workshop
 we do this for demonstration.
+
+To track history (say one commits new code and now the codebase doesn't work) one can go back to the 
+history of previous commit by the command
+
+`git checkout HEAD-n` with n being the previous n commits.
