@@ -11,7 +11,7 @@ For example, you can use the command `print("Hello World")` to print Hello World
 
 ## Bold text and italics
 
-Use double asterisk for bold
+Use double asterisk (**) on both ends for bold text, and single asterisk (*) on both ends for italic text. 
 
 For example, **This is a bold text**
 
