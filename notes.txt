@@ -1,1 +1,18 @@
-Hello World
+This is a file inside the folder helloworld
+
+Git essentially is a change tracking software, it will create a folder inside the working folder
+to store all changes made. Github is just a backup website for storing these changes.
+
+The main use of it is just to track changes.
+
+Remotes: Cloud-focus mindset. The main repo is the one on the cloud (Github), we pull the repo to 
+our local computer and make changes and push it back.
+
+Staging area: Not all changes need to be documented. Staging area allows one to control what 
+changes are to be documented.
+
+Branches: Different version of the main repo. Example, when one wants to add a new feature,
+one could create a branch of the main repo, then after finishing the feature, then  
+merge the branch to the main branch.
+
+Do not create a git folder inside an already git folder. It's not that you can't, just don't do it.
